@@ -1,6 +1,6 @@
-# Buckshot-Roulette Overview
+# Buckshot-Roulette
 
-## 1. OUR TEAM
+## 1. Our Team
 - **Liao Wang**: 3036126953
 - **Liu Hongkai**: 3036127763
 - **Wang Zijie**: 3036126953
