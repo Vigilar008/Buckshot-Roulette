@@ -56,7 +56,7 @@ make all
   - Storing the random bullets.
   - Storing the player's inventory.
 - **File Input/Output**: 
-  - Reading/storing data from `Player1_save_data.dat`, `Player2_save_data.dat`, `Save_Statue`.
+  - Reading/storing data from `Player1_save_data.dat`, `Player2_save_data.dat`, `Save_Statue`, `Shotgun_save_data.dat`.
 - **Program Codes in Multiple Files**: 
   - The main files in our program are: `game.cpp`, `start.cpp`, `display.cpp`, `save.cpp`, with `main.cpp` used to run the program.
 
