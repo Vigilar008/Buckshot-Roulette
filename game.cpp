@@ -21,6 +21,7 @@ string player1_filename = "Player1_save_data.dat";
 string player2_filename = "Player2_save_data.dat";
 bool stopflag = false;
 
+//save data of the gun and bullets
 class Shotgun
 {
 public:
@@ -124,6 +125,7 @@ public:
     }
 };
 
+// save data of the player
 class Player
 {
 public:
@@ -257,6 +259,7 @@ public:
     }
 };
 
+// when player shoot oneself or other
 bool shoot(Shotgun &sg, Player &p)
 {
     sleep(2);
@@ -292,6 +295,7 @@ bool shoot(Shotgun &sg, Player &p)
     sleep(1);
 }
 
+// when player use item
 bool useItem(string item, Shotgun &sg, Player &p1, Player &p2)
 {
     sleep(1);
@@ -346,6 +350,7 @@ bool useItem(string item, Shotgun &sg, Player &p1, Player &p2)
     return true;
 }
 
+// player moves
 void playerTurn(Player &p1, Player &p2, Shotgun &sg, const int &round, const bool &turn, bool &check_leave)
 {
     sleep(2);
@@ -463,6 +468,7 @@ void playerTurn(Player &p1, Player &p2, Shotgun &sg, const int &round, const boo
     }
 }
 
+// computer moves
 void computerTurn(Player &p1, Player &p2, Shotgun &sg)
 {
     sleep(2);
@@ -540,6 +546,7 @@ void computerTurn(Player &p1, Player &p2, Shotgun &sg)
     return;
 }
 
+// play 1 game time
 void game(Player p1, Player p2)
 {
     int round = 1, temp_a;
@@ -679,6 +686,7 @@ void game(Player p1, Player p2)
     save(false, 0, 0, DEFAULT_HEALTH, DEFAULT_ITEMS, MAX_LIVES, MAX_BLANKS); // finish a game, so "delete" the saving files
 }
 
+//player vs computer
 void pve()
 {
     string name;
@@ -697,6 +705,7 @@ void pve()
     game(p1, dealer);
 }
 
+// player vs player
 void pvp()
 {
     string name;
