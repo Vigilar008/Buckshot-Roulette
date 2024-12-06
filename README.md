@@ -43,3 +43,30 @@ Whether you’re a seasoned marksman or a newcomer, Buckshot-Roulette offers a c
 make all
 ./main
 
+# About Our Program
+
+## 4.1 List of Features
+- **Generation of Random Events**: 
+- **Data Structures for Storing Data**:
+  - **Class**: `shotgun`, `player` (in `game.cpp`)
+  - **Struct**: `letter` (in `display.cpp`)
+- **Dynamic Memory Management**: Used for storing the number of bullets.
+- **File Input/Output**: 
+  - Reading/storing data from `Player1_save_data.dat`, `Player2_save_data.dat`, `Save_Statue`.
+- **Program Codes in Multiple Files**: 
+  - The main files in our program are: `game.cpp`, `start.cpp`, `display.cpp`, `save.cpp`, with `main.cpp` used to run the program.
+- **Proper Indentation and Naming Styles**: Variable names reflect their usage clearly.
+- **In-code Documentation**: Provides clarity and understanding of the code.
+
+## 4.2 List of Non-standard C/C++ Libraries
+*(Details to be provided)*
+
+## 4.3 Introduction About Each Program
+- **start.cpp & game.cpp**: 
+  - These programs achieve all rules and support both PvP and PvE patterns. They read player input and manage the process of each turn.
+  
+- **save.cpp**: 
+  - This program saves all data (Player 1 data, Player 2 data, game status) into the game's database.
+
+- **display.cpp**: 
+  - This program reads output from `game.cpp` and `start.cpp`, providing different interfaces to show players the updated information.
