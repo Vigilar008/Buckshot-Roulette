@@ -53,8 +53,7 @@ make all
   - **class**: `shotgun`, `player` (in `game.cpp`)
   - **struct**: `letter` (in `display.cpp`)
 - **Dynamic Memory Management**:
-  - Storing the random bullets.
-  - Storing the player's inventory.
+  - Storing default values.
 - **File Input/Output**: 
   - Reading/storing data from `Player1_save_data.dat`, `Player2_save_data.dat`, `Save_Statue`, `Shotgun_save_data.dat`.
 - **Program Codes in Multiple Files**: 
