@@ -39,13 +39,11 @@ Whether you’re a seasoned marksman or a newcomer, Buckshot-Roulette offers a c
 - [Video Demo](https://youtu.be/9pU-0DAcSxM)
 
 ### 3.3 Compilation and Execution Instructions
-```bash
 make all
 ./main
 
-# About Our Program
-
-## 4.1 List of Features
+## 4. About our program
+### 4.1 List of Features
 - **Generation of Random Events**: 
 - **Data Structures for Storing Data**:
   - **Class**: `shotgun`, `player` (in `game.cpp`)
@@ -58,10 +56,10 @@ make all
 - **Proper Indentation and Naming Styles**: Variable names reflect their usage clearly.
 - **In-code Documentation**: Provides clarity and understanding of the code.
 
-## 4.2 List of Non-standard C/C++ Libraries
+### 4.2 List of Non-standard C/C++ Libraries
 *(Details to be provided)*
 
-## 4.3 Introduction About Each Program
+### 4.3 Introduction About Each Program
 - **start.cpp & game.cpp**: 
   - These programs achieve all rules and support both PvP and PvE patterns. They read player input and manage the process of each turn.
   
