@@ -61,10 +61,13 @@ make all
   - The main files in our program are: `game.cpp`, `start.cpp`, `display.cpp`, `save.cpp`, with `main.cpp` used to run the program.
 
 ### 4.2 List of Non-standard C/C++ Libraries
-- **iostream**: 
-  - cin & cout
-- **save.cpp**: 
-  - This program saves all data (Player 1 data, Player 2 data, game status) into the game's database.
-
-- **display.cpp**: 
-  - This program reads output from `game.cpp` and `start.cpp`, providing different interfaces to show players the updated information.
+- iostream
+- fstream
+- sstream
+- string
+- vector
+- algorithm
+- random
+- ctime
+- cstdlib
+- unistd.h
