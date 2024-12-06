@@ -7,6 +7,7 @@ using namespace std;
 
 string save_filename = "Save_Statue";
 
+// save data to the file
 void save(bool flag, int round, bool turn,int DEFAULT_HEALTH, int DEFAULT_ITEMS, int MAX_LIVES, int MAX_BLANKS)
 {
     ofstream fout;
@@ -21,6 +22,7 @@ void save(bool flag, int round, bool turn,int DEFAULT_HEALTH, int DEFAULT_ITEMS,
     return;
 }
 
+// load data from the file
 void load(bool &flag, int &round, bool &turn,int &DEFAULT_HEALTH, int &DEFAULT_ITEMS, int &MAX_LIVES, int &MAX_BLANKS)
 {
     ifstream fin;
