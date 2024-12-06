@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// display string with art characters
 void art_showmaker(string sentence)
 {
 
@@ -392,6 +393,7 @@ void art_showmaker(string sentence)
     }
 }
 
+// display welcome interface
 void welcome()
 {
     cout << endl;
@@ -425,6 +427,7 @@ void welcome()
     cout << endl;
 }
 
+//display instructions
 void displayHelp()
 {
     cout << "\n+===============================================================+\n"
@@ -451,6 +454,7 @@ void displayHelp()
     return;
 }
 
+// display gun and bullets
 void displayBullet(int usefull, int useless)
 {
     string s1 = " ,______________________________________";
