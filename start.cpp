@@ -9,7 +9,11 @@ using namespace std;
 // Setting interface
 void setting(int &DEFAULT_HEALTH, int &DEFAULT_ITEMS, int &MAX_LIVES, int &MAX_BLANKS)
 {
-    string set_list[4] = {"Default_health", "Default_items", "Max_lives", "Max_blanks"};
+    string *set_list = new string [4];
+    set_list[0]="DEFAULT_HEALTH";
+    set_list[1]="DEFAULT_ITEMS";
+    set_list[2]="MAX_LIVES";
+    set_list[3]="MAX_BLANKS";
     for (int i = 0; i < 4; i++)
     {
         cout << "Enter value of " << set_list[i] << " (Current value: ";
@@ -50,7 +54,7 @@ void setting(int &DEFAULT_HEALTH, int &DEFAULT_ITEMS, int &MAX_LIVES, int &MAX_B
     }
     // Debug output after assignment
     cout << "After assignment - DEFAULT_HEALTH: " << DEFAULT_HEALTH << ", DEFAULT_ITEMS: " << DEFAULT_ITEMS << ", MAX_LIVES: " << MAX_LIVES << ", MAX_BLANKS: " << MAX_BLANKS << endl;
-
+    delete [] set_list;
     return;
 }
 
